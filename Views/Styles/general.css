@@ -1,0 +1,65 @@
+/* General css for all pages */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap');
+
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.side-nav{
+    background-color: azure;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -150px;
+    transition: .25s all linear;
+}
+
+.side-nav:hover{
+    margin-left: 0;
+}
+
+.side-nav:hover > .menu-button{
+    text-align: left;
+}
+
+.menu-button{
+    position: relative;
+    width: 150px;
+    height: 60px;
+    left: 100px;
+    bottom: 200px;
+    text-align: center;
+    font-size: 30px;
+    transition: .5 all linear;
+}
+
+ul{
+    list-style: none;
+}
+
+.side-nav > ul > li {
+    margin-top: 25px;
+    transition: .5s all linear;
+}
+
+.side-nav > ul > li:hover{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;    
+}
+
+.main-section{
+    margin: 0 auto;
+    width: 100%;
+    background-color: bisque;
+    height: 100vh;
+}
+
+/* General css for all END */

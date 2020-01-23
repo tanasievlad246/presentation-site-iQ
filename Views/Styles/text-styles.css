@@ -1,0 +1,35 @@
+.oswald-font {
+    font-family: 'Oswald', sans-serif;
+}
+
+.opensans-font{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.big-title{
+    font-size: 50px;
+}
+
+.medium-title{
+    font-size: 25px;
+}
+
+.big-bold{
+    font-weight: 900;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.aling-right{
+    text-align: right;
+}

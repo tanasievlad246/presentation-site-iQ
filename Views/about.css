@@ -1,76 +1,30 @@
-/* General css for all pages */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap');
+@import './Styles/general.css';
+@import './Styles/text-styles.css';
 
-body{
-    display: flex;
-    flex-direction: row;
-}
-
-a{
-    display: block;
-    text-decoration: none;
-    color: black;
-}
-
-.side-nav{
-    background-color: azure;
-    width: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: -150px;
-    transition: .25s all linear;
-}
-
-.side-nav:hover{
-    margin-left: 0;
-}
-
-.side-nav:hover > .menu-button{
-    text-align: left;
+/* override general.css */
+.main-section{
+    height: 130vh;
 }
 
 .menu-button{
-    position: relative;
-    width: 150px;
-    height: 60px;
-    left: 100px;
-    bottom: 200px;
+    bottom: 310px;
+}
+/* override general.css end*/
+
+.custom-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    font-size: 30px;
 }
 
-ul{
-    list-style: none;
+.about-section{
+    position: absolute;
+    width: 900px;
+    top: 0;
+    left: 330px;
 }
 
-.side-nav > ul > li {
-    margin-top: 25px;
-    transition: .5s all linear;
+address{
+    margin-top: 20px;
 }
-
-.side-nav > ul > li:hover{
-    text-decoration-line: underline;
-    text-decoration-style: wavy;    
-}
-
-.oswald-font {
-    font-family: 'Oswald', sans-serif;
-}
-
-.opensans-font{
-    font-family: 'Open Sans', sans-serif;
-}
-
-.bold {
-    font-weight: bolder;
-}
-
-.main-section{
-    margin: 0 auto;
-    width: 100%;
-    background-color: bisque;
-    height: 100vh;
-}
-
-/* General css for all END */
