@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.side-nav{
+    background-color: azure;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+}
+
+ul > li {
+    margin-top: 15px;
+}
+
+.main-section{
+    margin: 0 auto;
+    width: 100%;
+    background-color: bisque;
+    height: 100vh;
+}
+
+.medium-size-image{
+    height: 475px;
+    width: 400px;
+}
+
+#main-image{
+    position: absolute;
+    left: 850px;
+    top: 130px;
+}
+
+.title-button{
+    position: absolute;
+    left: 250px;
+    top: 250px;
+}
+
+.button {
+    /* display: block; */
+    padding: 5px;
+    text-align: center;
+    width: 100px;
+    border: black solid 3px;
+}
+
+.button:hover {
+    background-color: #333;
+    color: #fff; 
+}
+
