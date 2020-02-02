@@ -47,7 +47,6 @@ ul{
 
 .side-nav > ul > li {
     margin-top: 25px;
-    transition: .5s all linear;
 }
 
 .side-nav > ul > li:hover{
