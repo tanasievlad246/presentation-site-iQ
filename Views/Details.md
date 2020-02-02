@@ -1,0 +1,1 @@
+## The styled views were made extra from the requrements view in the Original-Views folder
