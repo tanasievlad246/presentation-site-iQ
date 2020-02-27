@@ -1,89 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" type="image/png" href="../Assets/batman-icon.jpg"/>
-    <link rel="stylesheet" href="./styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="../Assets/batman-icon.jpg" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <script src="../script.js"></script>
     <title>Contact</title>
     <style type="text/css">
-        body{
-            text-align: center;
-        }
+      body {
+        text-align: center;
+      }
 
-        form , label {
-            display: block;
-        } 
+      form,
+      label {
+        display: block;
+      }
 
-        form {
-            margin-left: auto;
-            margin-right: auto;
-        }
+      form {
+        margin-left: auto;
+        margin-right: auto;
+      }
 
-        #message{
-            resize: none;
-        }
+      #message {
+        resize: none;
+      }
 
-        .medium-input{
-            width: 230px;
-        }
+      .medium-input {
+        width: 230px;
+      }
 
-        input[type='submit']{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
+      input[type="submit"] {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <!-- Start of nav -->
-        <nav>
-            <ul>
-                <li><a href="homepage.html">Home</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-        <!-- End of nav -->
+      <!-- Start of nav -->
+      <nav>
+        <ul>
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+        </ul>
+      </nav>
+      <!-- End of nav -->
     </header>
 
     <!-- Contact page title -->
-    <h1>Contact Us!</h1>
+    <h2>Contact Us!</h2>
 
     <!-- Start of contact form -->
     <section>
-        <form action="" id="contact-form">
-            <label for="email">Email</label>
-            <input type="text" class="medium-input" name="email" id="email" placeholder="Your email">
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" class="medium-input" placeholder="Your name">
-            <label for="phone">Phone</label>
-            <input type="text" name="phone" id="phone" class="medium-input" placeholder="Your phone number">
-            <label for="message">Send us your toughts</label>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message for us"></textarea>
-            <input type="submit" name="" id="">
-        </form>
+      <h2>Fill the form</h2>
+      <form action="/script.js" id="contact-form">
+        <label for="email">Email</label>
+        <input type="text" class="medium-input" name="email" id="email" placeholder="Your email" />
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" class="medium-input" placeholder="Your name" />
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" id="phone" class="medium-input" placeholder="Your phone number" />
+        <label for="message">Send us your toughts</label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message for us"></textarea>
+        <input type="submit" name="submit-button" />
+      </form>
     </section>
     <!-- End of contact form -->
 
     <!-- Start of address data -->
     <section>
-        <address>
-            <a href="tanasievladcristian@gmail.com">tanasievladcristian@gmail.com</a><br>
-            <a href="tel:+40745222888">0745222888</a><br>
-            <i>Romania, Craiova, Strada A Nr. 5</i>
-        </address>
+      <h2>Contact details</h2>
+      <address>
+        <a href="mailto:tanasievladcristian@gmail.com">tanasievladcristian@gmail.com</a><br />
+        <a href="tel:+40745222888">0745222888</a><br />
+        <i>Romania, Craiova, Strada A Nr. 5</i>
+      </address>
     </section>
     <!-- End of address data -->
 
     <!-- Start of footer -->
     <footer>
-        <p>&copy; Vlad-Cristian Tanasie</p>
+      <p>&copy; Vlad-Cristian Tanasie</p>
     </footer>
     <!-- End of footer -->
-</body>
+  </body>
 </html>
